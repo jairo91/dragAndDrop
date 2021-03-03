@@ -36,7 +36,7 @@ let dragAndDropPage = class dragAndDropPage {
 		let targetY = elementTarget.getLocation('y');
 		console.log("Coordenada de destino y: " + targetY); // outputs: 20
 
-		// browser.debug();
+		browser.debug();
 
 		browser.performActions([{
 			type: 'pointer',
@@ -51,7 +51,7 @@ let dragAndDropPage = class dragAndDropPage {
 			]
 		}])
 
-		// browser.debug();
+		browser.debug();
 	}
 }
 module.exports = new dragAndDropPage();
