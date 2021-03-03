@@ -1,0 +1,11 @@
+{
+	"time": {
+		"zero": 0,
+		"shortest": 1,
+		"short": 3,
+		"medium": 10,
+		"long": 20,
+		"extraLong": 30,
+		"longest": 60
+	}
+}
